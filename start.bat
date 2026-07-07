@@ -1,0 +1,6 @@
+@echo off
+echo Installing and starting Backend...
+start cmd /k "cd groweasy-importer\backend && npm install && npm run dev"
+
+echo Installing and starting Frontend...
+start cmd /k "cd groweasy-importer\frontend && npm install && npm run dev"
