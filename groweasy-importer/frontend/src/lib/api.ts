@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { UploadResponse, ProcessResponse, CSVRecord } from '@/types';
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3001';
+const API_BASE_URL = '';
 
 export const api = {
   uploadCSV: async (file: File): Promise<UploadResponse> => {
